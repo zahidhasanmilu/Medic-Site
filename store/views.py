@@ -30,8 +30,8 @@ def service(request):
 #     if request.method == 'POST':
 #         form = ContactForm(request.POST)
 #         if form.is_valid():
-#             form.save()  # Save the form data to the database if valid
-#             return redirect('home')# Redirect to a success page or perform other actions
+#             form.save()
+#             return redirect('home')
 #     else:
 #         form = ContactForm()
 
